@@ -11,6 +11,7 @@ describe('Magician', function() {
   it('should have a stage name', function() {
     var magician1 = new Magician({ name: 'Scott' });
     var magician2 = new Magician({ name: 'Casey' });
+    console.log(magician1.name)
 
     assert.equal(magician1.name, 'The Great Scott');
     assert.equal(magician2.name, 'The Great Casey');
